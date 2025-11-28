@@ -1,0 +1,4513 @@
+{
+  "scenario": "normal",
+  "arrival_rates": {
+    "north": 0.2,
+    "south": 0.2,
+    "east": 0.2,
+    "west": 0.2
+  },
+  "num_steps": 500,
+  "seed": 42,
+  "sequence": [
+    {
+      "step": 0,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 1,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 2,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 3,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 4,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 5,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 6,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 7,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 2,
+        "west": 0
+      }
+    },
+    {
+      "step": 8,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 9,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 10,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 11,
+      "arrivals": {
+        "north": 1,
+        "south": 2,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 12,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 13,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 14,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 15,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 16,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 17,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 18,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 19,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 20,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 21,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 22,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 23,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 24,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 25,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 26,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 27,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 28,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 29,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 2,
+        "west": 0
+      }
+    },
+    {
+      "step": 30,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 31,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 32,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 33,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 34,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 35,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 36,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 37,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 38,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 39,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 40,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 41,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 42,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 43,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 44,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 45,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 46,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 47,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 48,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 1
+      }
+    },
+    {
+      "step": 49,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 50,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 51,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 3,
+        "west": 0
+      }
+    },
+    {
+      "step": 52,
+      "arrivals": {
+        "north": 1,
+        "south": 2,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 53,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 54,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 55,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 56,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 57,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 58,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 59,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 60,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 61,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 62,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 63,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 64,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 65,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 66,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 67,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 68,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 69,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 70,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 71,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 72,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 73,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 74,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 75,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 76,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 77,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 78,
+      "arrivals": {
+        "north": 2,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 79,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 80,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 81,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 82,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 83,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 84,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 85,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 1,
+        "west": 1
+      }
+    },
+    {
+      "step": 86,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 2
+      }
+    },
+    {
+      "step": 87,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 88,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 89,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 90,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 91,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 92,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 93,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 94,
+      "arrivals": {
+        "north": 2,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 95,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 96,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 97,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 98,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 1,
+        "west": 1
+      }
+    },
+    {
+      "step": 99,
+      "arrivals": {
+        "north": 1,
+        "south": 1,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 100,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 101,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 102,
+      "arrivals": {
+        "north": 2,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 103,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 104,
+      "arrivals": {
+        "north": 2,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 105,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 1
+      }
+    },
+    {
+      "step": 106,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 107,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 108,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 1
+      }
+    },
+    {
+      "step": 109,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 110,
+      "arrivals": {
+        "north": 2,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 111,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 112,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 113,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 114,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 115,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 116,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 117,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 118,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 119,
+      "arrivals": {
+        "north": 2,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 120,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 121,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 122,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 123,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 124,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 125,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 126,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 127,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 128,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 129,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 130,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 131,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 132,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 133,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 134,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 135,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 136,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 137,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 138,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 139,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 140,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 141,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 142,
+      "arrivals": {
+        "north": 0,
+        "south": 2,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 143,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 144,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 145,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 146,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 147,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 148,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 149,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 150,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 1
+      }
+    },
+    {
+      "step": 151,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 152,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 153,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 154,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 155,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 156,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 157,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 158,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 159,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 160,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 161,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 1,
+        "west": 1
+      }
+    },
+    {
+      "step": 162,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 163,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 164,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 165,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 166,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 167,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 168,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 169,
+      "arrivals": {
+        "north": 0,
+        "south": 2,
+        "east": 0,
+        "west": 2
+      }
+    },
+    {
+      "step": 170,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 171,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 172,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 173,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 174,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 175,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 176,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 177,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 178,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 179,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 180,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 181,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 182,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 183,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 184,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 185,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 186,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 187,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 188,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 189,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 190,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 191,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 192,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 193,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 194,
+      "arrivals": {
+        "north": 1,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 195,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 196,
+      "arrivals": {
+        "north": 0,
+        "south": 2,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 197,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 198,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 199,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 200,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 201,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 202,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 203,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 204,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 205,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 206,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 207,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 208,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 209,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 210,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 1
+      }
+    },
+    {
+      "step": 211,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 212,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 213,
+      "arrivals": {
+        "north": 0,
+        "south": 2,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 214,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 215,
+      "arrivals": {
+        "north": 3,
+        "south": 1,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 216,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 217,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 218,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 219,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 220,
+      "arrivals": {
+        "north": 1,
+        "south": 1,
+        "east": 1,
+        "west": 1
+      }
+    },
+    {
+      "step": 221,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 222,
+      "arrivals": {
+        "north": 2,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 223,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 224,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 225,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 226,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 2
+      }
+    },
+    {
+      "step": 227,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 1
+      }
+    },
+    {
+      "step": 228,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 229,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 230,
+      "arrivals": {
+        "north": 0,
+        "south": 2,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 231,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 232,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 233,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 234,
+      "arrivals": {
+        "north": 2,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 235,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 236,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 237,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 238,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 239,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 240,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 241,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 242,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 243,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 244,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 245,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 246,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 247,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 248,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 249,
+      "arrivals": {
+        "north": 0,
+        "south": 3,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 250,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 251,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 252,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 253,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 254,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 255,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 256,
+      "arrivals": {
+        "north": 1,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 257,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 1
+      }
+    },
+    {
+      "step": 258,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 259,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 260,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 261,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 262,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 263,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 264,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 265,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 266,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 267,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 268,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 269,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 270,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 271,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 272,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 273,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 274,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 275,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 276,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 1
+      }
+    },
+    {
+      "step": 277,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 278,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 2
+      }
+    },
+    {
+      "step": 279,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 280,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 281,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 282,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 283,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 284,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 285,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 286,
+      "arrivals": {
+        "north": 1,
+        "south": 1,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 287,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 288,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 289,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 290,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 291,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 292,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 293,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 294,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 295,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 296,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 297,
+      "arrivals": {
+        "north": 2,
+        "south": 1,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 298,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 299,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 300,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 301,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 302,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 303,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 304,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 305,
+      "arrivals": {
+        "north": 1,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 306,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 307,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 308,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 309,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 310,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 311,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 312,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 313,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 314,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 315,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 316,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 1
+      }
+    },
+    {
+      "step": 317,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 318,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 319,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 320,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 321,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 322,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 323,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 324,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 325,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 326,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 327,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 328,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 329,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 330,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 331,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 332,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 333,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 334,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 335,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 336,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 337,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 338,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 339,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 340,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 341,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 342,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 2
+      }
+    },
+    {
+      "step": 343,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 344,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 345,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 346,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 347,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 2
+      }
+    },
+    {
+      "step": 348,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 349,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 350,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 351,
+      "arrivals": {
+        "north": 1,
+        "south": 1,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 352,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 353,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 354,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 1
+      }
+    },
+    {
+      "step": 355,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 356,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 357,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 358,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 359,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 360,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 361,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 362,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 363,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 364,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 365,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 366,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 367,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 368,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 369,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 370,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 2,
+        "west": 0
+      }
+    },
+    {
+      "step": 371,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 372,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 373,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 374,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 375,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 376,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 377,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 378,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 379,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 380,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 381,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 382,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 383,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 384,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 385,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 386,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 387,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 1
+      }
+    },
+    {
+      "step": 388,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 389,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 2
+      }
+    },
+    {
+      "step": 390,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 391,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 392,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 393,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 394,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 395,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 396,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 397,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 398,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 399,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 400,
+      "arrivals": {
+        "north": 2,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 401,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 402,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 403,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 404,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 405,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 406,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 407,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 408,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 409,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 2
+      }
+    },
+    {
+      "step": 410,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 411,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 412,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 413,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 414,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 415,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 416,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 417,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 418,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 419,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 420,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 421,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 422,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 423,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 424,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 425,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 426,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 427,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 428,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 429,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 430,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 431,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 432,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 433,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 434,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 435,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 436,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 437,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 438,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 439,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 440,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 441,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 442,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 443,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 444,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 445,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 446,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 447,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 448,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 449,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 450,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 451,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 452,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 453,
+      "arrivals": {
+        "north": 1,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 454,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 455,
+      "arrivals": {
+        "north": 1,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 456,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 457,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 458,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 459,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 460,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 461,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 1
+      }
+    },
+    {
+      "step": 462,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 463,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 464,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 465,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 466,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 467,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 468,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 469,
+      "arrivals": {
+        "north": 2,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 470,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 471,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 472,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 473,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 474,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 475,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 476,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 477,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 478,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 479,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 480,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 481,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 482,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 483,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 484,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 485,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 486,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 487,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 488,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 489,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 490,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 1
+      }
+    },
+    {
+      "step": 491,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 492,
+      "arrivals": {
+        "north": 0,
+        "south": 1,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 493,
+      "arrivals": {
+        "north": 1,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 494,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 495,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 496,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 0
+      }
+    },
+    {
+      "step": 497,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    },
+    {
+      "step": 498,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 1,
+        "west": 1
+      }
+    },
+    {
+      "step": 499,
+      "arrivals": {
+        "north": 0,
+        "south": 0,
+        "east": 0,
+        "west": 0
+      }
+    }
+  ]
+}

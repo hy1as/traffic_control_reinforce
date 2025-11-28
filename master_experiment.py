@@ -35,7 +35,7 @@ def master_workflow(mode: str = 'full'):
     마스터 워크플로우
     
     Args:
-        mode: 'full' (전체), 'quick' (빠른 테스트), 'skip-tuning' (튜닝 스킵)
+        mode: 'full' (전체), 'skip-tuning' (튜닝 스킵)
     """
     print("\n" + "="*70)
     print("🎯 강화학습 교통 신호등 제어 - 마스터 실험 워크플로우")
@@ -43,33 +43,7 @@ def master_workflow(mode: str = 'full'):
     print(f"실행 모드: {mode.upper()}")
     print("="*70)
     
-    if mode == 'quick':
-        # 빠른 테스트 모드
-        print("\n📝 빠른 테스트 모드")
-        print("   - 기본 동작 확인: 10 에피소드")
-        print("   - 하이퍼파라미터 테스트: 50 에피소드")
-        print("   - 예상 소요 시간: 약 10분\n")
-        
-        # 1. 기본 동작 확인
-        run_command(
-            "python quick_test.py",
-            "1단계: 기본 동작 확인"
-        )
-        
-        # 2. 하이퍼파라미터 빠른 테스트
-        run_command(
-            "python quick_hyperparameter_test.py",
-            "2단계: 하이퍼파라미터 빠른 테스트"
-        )
-        
-        print("\n" + "="*70)
-        print("✨ 빠른 테스트 완료!")
-        print("="*70)
-        print("\n📌 다음 단계:")
-        print("   전체 실험을 실행하려면:")
-        print("   python master_experiment.py --mode full")
-        
-    elif mode == 'skip-tuning':
+    if mode == 'skip-tuning':
         # 튜닝 스킵 모드 (기본 파라미터 사용)
         print("\n📝 튜닝 스킵 모드")
         print("   - 기본 하이퍼파라미터 사용")
@@ -91,10 +65,6 @@ def master_workflow(mode: str = 'full'):
         print("\n📝 전체 실험 모드")
         print("   - 1단계: 하이퍼파라미터 튜닝 (실험 A~D)")
         print("   - 2단계: 최적 파라미터로 시나리오 비교")
-        print("   - 예상 소요 시간: 약 12-16시간\n")
-        
-        input("⚠️  전체 실험은 오랜 시간이 걸립니다. 계속하시겠습니까? [Enter]")
-        
         # 1단계: 하이퍼파라미터 튜닝
         if not check_tuning_results_exist():
             run_command(
@@ -124,7 +94,7 @@ def master_workflow(mode: str = 'full'):
     
     else:
         print(f"❌ 알 수 없는 모드: {mode}")
-        print("   사용 가능한 모드: 'quick', 'skip-tuning', 'full'")
+        print("   사용 가능한 모드: 'skip-tuning', 'full'")
         sys.exit(1)
 
 
@@ -139,10 +109,6 @@ def print_usage():
     python master_experiment.py [--mode MODE]
 
 모드 옵션:
-    quick        : 빠른 테스트 (~10분)
-                   - 기본 동작 확인
-                   - 하이퍼파라미터 빠른 테스트
-    
     skip-tuning  : 튜닝 스킵 모드 (~4-6시간)
                    - 기본 파라미터로 시나리오 비교만 수행
                    - 하이퍼파라미터 튜닝 건너뛰기
@@ -152,9 +118,6 @@ def print_usage():
                    - 최적 파라미터로 시나리오 비교
 
 예시:
-    # 빠른 테스트 (권장)
-    python master_experiment.py --mode quick
-    
     # 전체 실험
     python master_experiment.py --mode full
     
@@ -162,10 +125,6 @@ def print_usage():
     python master_experiment.py --mode skip-tuning
 
 실험 워크플로우:
-    
-    [Mode: quick]
-    1. 기본 동작 확인 (10 에피소드)
-    2. 하이퍼파라미터 테스트 (50 에피소드)
     
     [Mode: skip-tuning]
     1. 시나리오 비교 (기본 파라미터)
@@ -206,8 +165,8 @@ if __name__ == "__main__":
     parser.add_argument(
         '--mode',
         type=str,
-        default='quick',
-        choices=['quick', 'skip-tuning', 'full'],
+        default='full',
+        choices=['skip-tuning', 'full'],
         help='실험 모드 선택'
     )
     
