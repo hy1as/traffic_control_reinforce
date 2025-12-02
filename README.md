@@ -1,6 +1,10 @@
 # 강화학습 기반 교통 신호등 제어 프로젝트
 
-## 🚀 빠른 시작
+## ❗️ 모델은 프로젝트 내에 포함 되어있습니다. 
+
+/models/optimized
+
+## 실행 방법
 
 ### 1. 패키지 설치
 
@@ -8,47 +12,50 @@
 pip install -r requirements.txt
 ```
 
-### 2. 데모 실행 (시각화 시연) ⭐ 가장 먼저 실행해보세요!
+### 2. 데모 실행 (시각화 시연)
 
 #### 시연 실행
 
-**모든 시나리오 빠른 테스트 (권장):**
+**모든 시나리오 시각화 시연 (권장):**
+```bash
+# 모든 시나리오를 순차적으로 시각화하며 테스트 (고정 신호와 비교, 기본값)
+python traffic_demo.py --scenario all --agent-type dqn --speed 0.3
+```
+
+**단일 시나리오 시각화 시연:**
+```bash
+# 평시 교통량 시나리오 (고정 신호와 비교, 기본값)
+python traffic_demo.py --scenario normal --agent-type dqn --speed 0.3
+
+# 출근 시간 혼잡 상황 비교
+python traffic_demo.py --scenario morning_rush --agent-type ddqn --speed 0.5
+
+# 극심한 혼잡 상황 (빠른 속도)
+python traffic_demo.py --scenario congestion --agent-type ddqn --speed 0.2 --steps 300
+
+# 비교 없이 단일 모델만 표시하려면
+python traffic_demo.py --scenario normal --no-compare --agent-type dqn --speed 0.3
+```
+
+**고정 신호와 성능 비교 (기본값, 자동으로 비교 모드 활성화):**
+```bash
+# 평시 교통량에서 고정 신호와 비교 (--compare 옵션 불필요, 기본값)
+python traffic_demo.py --scenario normal --agent-type dqn
+
+# 출근 시간 혼잡 상황 비교
+python traffic_demo.py --scenario morning_rush --agent-type ddqn --speed 0.3
+
+# 고정 신호 주기 변경하여 비교
+python traffic_demo.py --scenario normal --baseline-cycle 20 --agent-type dqn
+```
+
+**모든 시나리오 빠른 테스트:**
 ```bash
 # 시각화 없이 빠르게 모든 시나리오 테스트
 python traffic_demo.py --scenario all --no-visualize --agent-type dqn
 
 # Double DQN으로 모든 시나리오 테스트
 python traffic_demo.py --scenario all --no-visualize --agent-type ddqn
-```
-
-**고정 신호와 성능 비교 (권장):**
-```bash
-# 평시 교통량에서 고정 신호와 비교
-python traffic_demo.py --scenario normal --compare --agent-type dqn
-
-# 출근 시간 혼잡 상황 비교
-python traffic_demo.py --scenario morning_rush --compare --agent-type ddqn --speed 0.3
-
-# 고정 신호 주기 변경하여 비교
-python traffic_demo.py --scenario normal --compare --baseline-cycle 20
-```
-
-**단일 시나리오 시각화 시연:**
-```bash
-# 평시 교통량 시나리오
-python traffic_demo.py --scenario normal --agent-type dqn --speed 0.3
-
-# 출근 시간 혼잡 상황
-python traffic_demo.py --scenario morning_rush --agent-type ddqn --speed 0.5
-
-# 극심한 혼잡 상황 (빠른 속도)
-python traffic_demo.py --scenario congestion --agent-type ddqn --speed 0.2 --steps 300
-```
-
-**모든 시나리오 시각화 시연:**
-```bash
-# 모든 시나리오를 순차적으로 시각화하며 테스트
-python traffic_demo.py --scenario all --agent-type dqn --speed 0.3
 ```
 
 #### 데모 옵션 설명
@@ -93,7 +100,7 @@ python traffic_demo.py --scenario all --agent-type dqn --speed 0.3
 
 ### 3. 전체 실험 실행
 
-#### ⭐⭐⭐ 추천: 마스터 스크립트 사용
+#### 마스터 스크립트 사용
 
 ```bash
 # 전체 실험 (12-16시간, 최종 결과용)
@@ -164,7 +171,7 @@ project/
 │   ├── integrated_experiment_results.json
 │   └── plots/
 │
-└── README.md                      # 이 파일
+└── README.md                      
 ```
 
 ## 📊 주요 구성 요소
@@ -229,7 +236,7 @@ project/
 ======================================================================
 ```
 
-**비교 모드 (`--compare` 옵션):**
+**비교 모드 (기본값, 자동 활성화):**
 ```
 ================================================================================================================================================
   교통 신호등 제어 성능 비교 - Step   50
