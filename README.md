@@ -1,5 +1,11 @@
 # 강화학습 기반 교통 신호등 제어 프로젝트
 
+## PPT 공유 링크
+- PPTX
+https://docs.google.com/presentation/d/1lXNSdVCZAhQrmAfthWR8Dkq5wLuDiP7I/edit?usp=drive_link&ouid=108528076737133136216&rtpof=true&sd=true
+
+- PDF (권장)
+https://drive.google.com/file/d/1adlHtxyN0nX5WEVgo9BC5L-TBWVdZY-H/view?usp=drive_link
 ## ❗️ 모델은 프로젝트 내에 포함 되어있습니다. 
 
 /models/optimized
