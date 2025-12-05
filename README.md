@@ -159,25 +159,26 @@ project/
 ├── master_experiment.py           # 마스터 스크립트 (전체 자동화)
 │
 ├── generate_demo_data.py          # 시연용 가상 데이터 생성
-├── traffic_demo.py                # 시연 스크립트 (ASCII 시각화)
+├── traffic_demo.py                # 시연 스크립트
+│
+├── requirements.txt               # 패키지 의존성 목록
 │
 ├── demo_data/                     # 생성된 가상 데이터
 │   ├── normal_traffic_data.json
 │   ├── morning_rush_traffic_data.json
-│   └── ...
+│   ├── evening_rush_traffic_data.json
+│   ├── congestion_traffic_data.json
+│   └── night_traffic_data.json
 │
 ├── models/                        # 학습된 모델
 │   └── optimized/
-│       ├── dqn_normal/
-│       ├── ddqn_normal/
-│       └── ...
 │
 ├── results/                       # 실험 결과
 │   ├── hyperparameter_tuning_results.json
 │   ├── integrated_experiment_results.json
 │   └── plots/
 │
-└── README.md                      
+└── README.md
 ```
 
 ## 📊 주요 구성 요소
